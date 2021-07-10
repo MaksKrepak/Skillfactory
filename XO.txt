@@ -1,7 +1,7 @@
 field = [i for i in range(1,10)] # заполняем ячейки поля координатами
 def draw(field): # ф-я рисования поля
     print("-------------")
-    for i in range(3):
+    for i in range(3): # заполняем ячейки цифрами 1-9
         print("|", field[0+i*3], "|", field[1+i*3], "|", field[2+i*3], "|")
         print("-------------")
 draw(field) 
